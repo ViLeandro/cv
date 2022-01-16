@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Me</title>
+    </head>
+    <body>
+        <h2>Contact Information</h2>
+
+        <ul>
+            <li>Vitor Leandro</li>
+            <li>São Paulo, SP</li>
+            <li>vitorleandro@gmail.com</li>
+            <li>(203) 432 2542</li>
+        </ul>
+
+        <hr>
+
+        <!-- The action attribute specifies where to send the form-data when a form is submitted -->
+
+        <form action="mailto:vitorleandro.comercial@gmail.com" method="post" enctype="text/plain">
+            <label>Your Name:</label>
+            <input type="text" name="youName" value=""><br>
+            <label>Your Email:</label>
+            <input type="email" name="yourEmail" value=""><br>
+            <label>Your Message:</label><br>
+            <textarea name="yourMessage" rows="10" colum="30"></textarea><br>
+            <input type="submit" name="">
+        </form>
+    </body>
+</html>
